@@ -1,6 +1,6 @@
 {
   "name": "simple-orm-mysql-adapter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "MySQL adapter for simple orm",
   "keywords": [
     "orm",
@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "lodash": "2.4.1",
-    "bluebird": "1.2.4"
+    "bluebird": "1.2.4",
+    "squel": "3.4.1"
   },
   "devDependencies": {},
   "engines": {
