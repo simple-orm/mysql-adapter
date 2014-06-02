@@ -22,7 +22,8 @@
   "dependencies": {
     "lodash": "2.4.1",
     "bluebird": "1.2.4",
-    "squel": "3.4.1"
+    "squel": "3.4.1",
+    "string-format": "0.2.1"
   },
   "devDependencies": {},
   "engines": {
