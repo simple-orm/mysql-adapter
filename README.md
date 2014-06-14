@@ -33,7 +33,9 @@ module.exports = {
     database: configuration.database
   })
 };
+```
 
+```javascript
 //permission.js
 var mysqlAdapter = require('simple-orm-mysql-adapter')(require('./mysql-connection'));
 
