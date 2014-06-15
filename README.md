@@ -42,10 +42,6 @@ var mysqlAdapter = require('simple-orm-mysql-adapter')(require('./mysql-connecti
 //rest of data object creation ...
 ```
 
-# TODO:
-
-* Support pools
-
 ## LICENSE
 
 MIT
