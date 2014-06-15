@@ -1,5 +1,6 @@
-# master
+# 0.5.0
 - updates based on core library changes
+- converted `throw`'s to `defer.reject()`'s
 - added `bulkInsert()` method
 - added `bulkRemove()` method
 
