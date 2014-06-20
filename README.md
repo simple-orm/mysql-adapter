@@ -36,10 +36,8 @@ module.exports = {
 ```
 
 ```javascript
-//permission.js
-var mysqlAdapter = require('simple-orm-mysql-adapter')(require('./mysql-connection'));
-
-//rest of data object creation ...
+var mysqlAdapter = require('simple-orm-mysql-adapter').create();
+mysqlAdapter.setConnection(require('./mysql-connection'));
 ```
 
 ## LICENSE
