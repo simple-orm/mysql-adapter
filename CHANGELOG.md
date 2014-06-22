@@ -1,4 +1,4 @@
-# master
+# 0.6.0
 - now able to create multiple instances (transaction support)
 - connection object is now set and released through `setConnection()`/`releaseConnection()` methods which supports regular and pooled connections (transaction support)
 - no longer converts data to model/collection (core library does that now)
